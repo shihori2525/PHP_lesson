@@ -10,9 +10,13 @@
 
   <?php
   $nickname = $_POST['nickname'];
-  print 'ようこそ';
-  print $nickname;
-  print '様';
+  if ($nickname == '') {
+    print 'ニックネームが入力されていません。';
+  } else {
+    print 'ようこそ';
+    print $nickname;
+    print '様';
+  }
   ?>
 </body>
 
