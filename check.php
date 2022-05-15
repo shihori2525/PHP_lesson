@@ -9,8 +9,9 @@
 <body>
 
   <?php
+  $nickname = $_POST['nickname'];
   print 'ようこそ';
-  print $_POST['nickname'];
+  print $nickname;
   print '様';
   ?>
 </body>
