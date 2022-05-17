@@ -38,8 +38,9 @@
     print '<br>';
   }
 
-  print '<form>';
+  print '<form method="post" action="thanks.php">';
   print '<input type="button" onclick="history.back()" value="戻る">';
+  print '<input type="submit" value="OK">';
   print '</form>';
   ?>
 </body>
