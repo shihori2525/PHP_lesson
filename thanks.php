@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>PHP演習</title>
+  <title>thanks</title>
 </head>
 
 <body>
